@@ -9,8 +9,6 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-
-
 #регистрация 
 @app.route('/register',methods=['GET','POST'])
 def registrer():
